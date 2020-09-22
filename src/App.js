@@ -3,6 +3,7 @@ import './App.scss';
 import Image from './components/Image';
 import Hello from './components/Hello';
 import Title from './components/Title';
+import SplitLine from './components/SplitLine';
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
         <Image />
         <Hello />
         <Title />
+        <SplitLine />
       </main>
     );
   }
