@@ -5,6 +5,8 @@ import Hello from './components/Hello';
 import Title from './components/Title';
 import SplitLine from './components/SplitLine';
 import AboutMe from './components/AboutMe';
+import Education from './components/Education';
+import AboutMeContent from './components/AboutMeContent';
 
 class App extends Component {
   render() {
@@ -15,6 +17,8 @@ class App extends Component {
         <Title />
         <SplitLine />
         <AboutMe />
+        <AboutMeContent />
+        <Education />
       </main>
     );
   }
