@@ -7,6 +7,7 @@ import SplitLine from './components/SplitLine';
 import AboutMe from './components/AboutMe';
 import Education from './components/Education';
 import AboutMeContent from './components/AboutMeContent';
+import EducationContent from './components/EducationContent';
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
         <AboutMe />
         <AboutMeContent />
         <Education />
+        <EducationContent />
       </main>
     );
   }
