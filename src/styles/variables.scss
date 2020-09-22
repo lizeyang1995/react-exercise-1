@@ -17,4 +17,11 @@ $base-margin: 20px;
 .image-size {
   width: 150px;
   height: 150px;
+  border-radius: 80px;
+}
+
+.image-position {
+  position: relative;
+  left: 400px;
+  top: -75px;
 }
