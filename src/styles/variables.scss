@@ -21,7 +21,8 @@ $base-margin: 20px;
 }
 
 .image-position {
-  position: relative;
-  left: 400px;
-  top: -75px;
+  position: absolute;
+  left: 50%;
+  margin-left: -75px;
+  top: 0px;
 }
